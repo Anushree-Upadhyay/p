@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background: linear-gradient(#10465f 0%, #259ca5 100%);
+}
+
+img {
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+}
+
+#welcome {
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: #7e1b71;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #0f8662;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 42;
+    background: rgb(220, 243, 252);
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu a {
+    color: black !important;
+}
+
+
+.link {
+    color: rgb(126, 134, 202);
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    background-color: beige;
+}
+
+#My work a {
+    font-size: 30px;
+
+}
+
+#References a {
+    font-size: 30px;
+
+}
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    background: linear-gradient(#1f50a0, #26972b);
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #aaaaaa;
+}
+
+img:hover {
+    /*Give transform property to scale to 0.9*/
+    scale: 0.9;
+}
